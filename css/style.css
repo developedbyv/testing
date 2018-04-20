@@ -95,10 +95,6 @@ body, html {
   transition-duration: 0.4s;
 }
 
-
-
-
-
 .container {
     width: 1000px;
     margin: auto;
@@ -111,6 +107,7 @@ body, html {
   overflow: hidden;
   background: #F4F4F4;
 }
+
 
 .mobile-features-container {
   width: 90%;
@@ -185,26 +182,24 @@ header .highlight, header .current a {
 #mobile-features .left-side img {
   width: 400px;
   float: left;
-  padding: 10% 10% 10% 20%;
+  vertical-align: middle;
 }
 
 #mobile-features .right-side{
   width: 400px;
   float: left;
-  padding: 10% 10% 10% 20%;
+  vertical-align: middle;
 }
 
 #features .left-side {
   float: left;
-  text-align: right;
-  display: inline-block;
+  margin: 0 auto;
   margin-top: 10%;
 }
 
 #features .right-side {
   float: right;
-  text-align: left;
-  display: inline-block;
+  margin-right: inherit;
   margin-top: 10%;
 }
 
@@ -216,9 +211,33 @@ header .highlight, header .current a {
 
 #features .right-side img {
   width: 500px;
-  float: right;
+  float: left;
   vertical-align: middle;
 
+}
+
+
+#features .right-side button {
+  border-color: #2F4550;
+  color: #2F4550;
+  background-color: transparent;
+  position: middle;
+  font-size: 15px;
+  padding: 15px 25px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+
+#features .left-side button {
+  border-color: #2F4550;
+  color: #2F4550;
+  background-color: transparent;
+  position: middle;
+  font-size: 15px;
+  padding: 15px 25px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 p {
