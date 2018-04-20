@@ -126,7 +126,7 @@ ul {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .header a:hover {
@@ -137,11 +137,12 @@ ul {
 .header li{
   float: left;
   display: inline;
-  padding: 0 20px 0 20px;
+  padding: 8% 20px 0 20px;
 }
 
 .header #brand {
   float: left;
+  padding: 3% 3% 3% 3%;
 }
 
 .header #brand h1{
@@ -260,4 +261,15 @@ p {
 
 #boxes .box img{
   width: 100px;
+}
+
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+  
+
 }
