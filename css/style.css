@@ -32,13 +32,21 @@ body, html {
 }
 
 /* Place text in the middle of the image */
-.hero-text {
+/*.hero-text {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     text-align: left;
     position: absolute;
     top: 50%;
     left: 38%;
     transform: translate(-50%, -50%);
+    color: white;
+}*/
+.hero-text {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 700px;
+    margin: 240px auto;
+    display: block;
     color: white;
 }
 
@@ -99,10 +107,11 @@ body, html {
     width: 1000px;
     margin: auto;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .features-container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   background: #F4F4F4;
@@ -116,17 +125,26 @@ body, html {
   background: #FFFFFF;
 }
 
-ul {
+ul{
   margin: 0;
   padding: 0;
 }
 
 /* Header **/
+.header{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: none;
+  color: #ffffff;
+  min-height: 70px;
+}
+
 .header a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .header a:hover {
@@ -137,12 +155,11 @@ ul {
 .header li{
   float: left;
   display: inline;
-  padding: 8% 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
 
 .header #brand {
   float: left;
-  padding: 3% 3% 3% 3%;
 }
 
 .header #brand h1{
@@ -150,19 +167,19 @@ ul {
 }
 
 .header nav{
-  float:  right;
+  float: right;
   margin-top: 10px;
 }
 
 .header .highlight, header .current a {
-  color: #e8491D;
   font-weight: bold;
 }
 
 #features {
+  width: 100%;
     background: #F4F4F4;
     clear: both;
-    height: 700px;
+    height: 600px;
     vertical-align: center;
 }
 
@@ -187,27 +204,41 @@ ul {
 }
 
 #features .left-side {
-  float: left;
+  position: absolute;
+  width: 50%;
   margin: 0 auto;
-  margin-top: 10%;
 }
 
 #features .right-side {
   float: right;
-  margin-right: inherit;
-  margin-top: 10%;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+}
+
+.text-wrap {
+  position: absolute;
+  display: block;
+  margin: 130px auto;
+  padding-left: 40px;
+}
+.text-wrap-left {
+  position: absolute;
+  right: 40px;
+  display: block;
+  margin: 130px auto;
 }
 
 #features .left-side img {
   width: 500px;
-  float: left;
-  vertical-align: middle;
+  display: block;
+  margin: 100px 0 auto auto;
 }
 
 #features .right-side img {
   width: 500px;
-  float: left;
-  vertical-align: middle;
+  display: block;
+  margin: 100px auto auto 0;
 
 }
 
@@ -244,7 +275,7 @@ p {
 }
 
 #boxes{
-  margin-top: 150px;
+  margin-top: 125px;
 }
 
 #Logo{
@@ -265,11 +296,9 @@ p {
 
 
 footer {
-  padding: 20px;
+  padding: 1%;
   margin-top: 20px;
-  color: #ffffff;
-  background-color: #e8491d;
+  color: #000000;
+  background-color: #ffffff;
   text-align: center;
-  
-
 }
